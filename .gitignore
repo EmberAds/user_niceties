@@ -1,6 +1,7 @@
-*.gem
-.bundle
-Gemfile.lock
-pkg/*
-.gitignore
+.bundle/
+log/*.log
+pkg/
+test/dummy/db/*.sqlite3
+test/dummy/log/*.log
+test/dummy/tmp/
 .rvmrc

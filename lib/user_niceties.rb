@@ -1,7 +1,4 @@
-require "user_niceties/version"
+require "user_niceties/engine"
 
 module UserNiceties
-
 end
-
-Dir[File.expand_path("user_niceties/**/*.rb", File.dirname(__FILE__))].each { | f | require f }
